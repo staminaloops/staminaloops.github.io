@@ -1,0 +1,385 @@
+body {
+  color: #FFF ;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-family: 'Lobster', serif;
+  color: #D02C2C;
+  font-size: 37px;
+  text-shadow: 1px 1px 1px #300E0E;
+}
+
+p {
+  font-size: 150%;
+}
+
+.subtle {
+  color: #5A5A5A;
+  font-size: 10px;
+  padding: 10px;
+
+}
+
+.sep {
+  width: 40%;
+  height: 2px;
+  background-color: #2F2F2F;
+  box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0 inset;
+  border-top: 1px solid #121212;
+  margin: 0 auto;
+  
+  
+}
+
+pre {
+  margin-top:15px;
+  margin-left:10px;
+  max-width: 500px;
+  border-radius: 10%;
+  border-color: transparent;
+}
+
+.devicons {
+  vertical-align: middle;
+  width: 95px;
+  margin: 5px;
+  margin-top: 45px;
+  border-radius: 13%;
+  border: 1px solid rgb(78, 78, 78);
+}
+
+/* Navbar */
+.navbar {
+  
+   margin: 10px;
+   background: #A52A2A;
+   border: 2px  dashed #6D1919;
+   border-radius: 10px;
+   box-shadow: 0 0 0 4px #A52A2A, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+}
+
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
+  padding-top: 14px;
+  padding-bottom: 15px;
+  line-height: 20px;
+  color: #570011;
+  text-shadow: 0px 1px 1px #CC3535;
+  font-family: Lobster;
+  font-size: 23px;
+}
+
+.navbar-default .navbar-brand {
+  font-size: 30px;
+  padding: 11px 15px;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus  {
+  color: white;
+  text-shadow: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, a:hover, a:focus {
+  color: white;
+  text-decoration: none;
+  text-shadow:none;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #801E1E;
+  text-shadow: 0px 2px 1px #000000;
+}
+
+.navbar-default .navbar-brand {
+  font-size: 30px;
+  padding: 11px 15px;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus  {
+  color: white;
+}
+
+/*
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+@media (min-width: 767px) {
+  .navbar {
+    padding: 13px 0px;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  
+  .top-nav-collapse {
+    padding: 0px;
+    
+  }
+}
+
+/*intro*/
+
+.intro-section {
+  height: 100%;
+  width: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background-color: #2F2F2F;
+ /*background: url("../images/bg1.png") repeat 0 0;*/
+  
+}
+
+.d3 {
+  box-sizing: content-box;
+  border: none;
+  font: normal 72px / normal "Lobster", Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  text-shadow: 0 1px 0 rgb(204, 204, 204), 0 2px 0 rgb(201, 201, 201), 0 3px 0 rgb(187, 187, 187), 0 4px 0 rgb(185, 185, 185), 0 5px 0 rgb(170, 170, 170), 0 6px 1px rgba(0, 0, 0, 0.0980392), 0 0 5px rgba(0, 0, 0, 0.0980392), 0 1px 3px rgba(0, 0, 0, 0.298039), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.247059), 0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.14902);
+}
+
+/*about*/
+
+.about-section {
+  
+  padding-top: 150px;
+  padding-bottom:150px;
+  text-align: left;
+  background: #2F2F2F;
+}
+
+.services-section {
+
+  padding-top: 150px;
+  padding-bottom:150px;
+  text-align: center;
+  background: #4E4E4E;
+}
+
+.inverted {
+  color: white;
+  text-shadow: none;
+
+}
+
+.well {
+  background-color: #2F2F2F;
+  border-color: #363636;
+  margin-top: 30px;
+}
+
+/*portfolio*/
+
+.portfolio-section {
+  height: 100%;
+  padding-top: 170px;
+  padding-bottom:200px;
+  text-align: center;
+  background: rgba(47, 47, 47, 0.6);
+}
+
+.tumb {
+    max-width: 150px;
+    height: 300px;
+    margin: 10px 10px 10px 10px;
+
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    }
+
+.tumb:hover {
+  cursor: pointer;
+  -webkit-transform: scale(2, 2);
+    -ms-transform: scale(2, 2);
+    transform: scale(2, 2);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    box-shadow: 10px 10px 5px #888888;
+    z-index: 1;
+    }
+
+
+/*contact*/
+
+.contact-section {
+  height: 100%;
+  padding-top: 130px;
+  text-align: center;
+  background: #2F2F2F;
+}
+
+form {
+  padding-bottom: 50px;
+}
+
+.other-icons :before, .other-icons :after, .other-icons {
+color: #D02C2C;
+    font-size: 37px;
+    text-shadow: 1px 1px 1px #300E0E;
+}
+
+.noDisplay {
+  display: none;
+}
+
+
+/*higligthjs*/
+/*
+Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-license.org/
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #23241f;
+  width: 100%;
+  -webkit-text-size-adjust: none;
+}
+
+.hljs,
+.hljs-tag,
+.css .hljs-rule,
+.css .hljs-value,
+.aspectj .hljs-function,
+.css .hljs-function
+.hljs-preprocessor,
+.hljs-pragma {
+  color: #f8f8f2;
+}
+
+.hljs-strongemphasis,
+.hljs-strong,
+.hljs-emphasis {
+  color: #a8a8a2;
+}
+
+.hljs-bullet,
+.hljs-blockquote,
+.hljs-horizontal_rule,
+.hljs-number,
+.hljs-regexp,
+.alias .hljs-keyword,
+.hljs-literal,
+.hljs-hexcolor {
+  color: #ae81ff;
+}
+
+.hljs-tag .hljs-value,
+.hljs-code,
+.hljs-title,
+.css .hljs-class,
+.hljs-class .hljs-title:last-child {
+  color: #a6e22e;
+}
+
+.hljs-link_url {
+  font-size: 80%;
+}
+
+.hljs-strong,
+.hljs-strongemphasis {
+  font-weight: bold;
+}
+
+.hljs-emphasis,
+.hljs-strongemphasis,
+.hljs-class .hljs-title:last-child,
+.hljs-typename {
+  font-style: italic;
+}
+
+.hljs-keyword,
+.ruby .hljs-class .hljs-keyword:first-child,
+.ruby .hljs-function .hljs-keyword,
+.hljs-function,
+.hljs-change,
+.hljs-winutils,
+.hljs-flow,
+.nginx .hljs-title,
+.tex .hljs-special,
+.hljs-header,
+.hljs-attribute,
+.hljs-symbol,
+.hljs-symbol .hljs-string,
+.hljs-tag .hljs-title,
+.hljs-value,
+.alias .hljs-keyword:first-child,
+.css .hljs-tag,
+.css .unit,
+.css .hljs-important {
+  color: #f92672;
+}
+
+.hljs-function .hljs-keyword,
+.hljs-class .hljs-keyword:first-child,
+.hljs-aspect .hljs-keyword:first-child,
+.hljs-constant,
+.hljs-typename,
+.hljs-name,
+.css .hljs-attribute {
+  color: #66d9ef;
+}
+
+.hljs-variable,
+.hljs-params,
+.hljs-class .hljs-title,
+.hljs-aspect .hljs-title {
+  color: #f8f8f2;
+}
+
+.hljs-string,
+.css .hljs-id,
+.hljs-subst,
+.hljs-type,
+.ruby .hljs-class .hljs-parent,
+.hljs-built_in,
+.django .hljs-template_tag,
+.django .hljs-variable,
+.smalltalk .hljs-class,
+.django .hljs-filter .hljs-argument,
+.smalltalk .hljs-localvars,
+.smalltalk .hljs-array,
+.hljs-attr_selector,
+.hljs-pseudo,
+.hljs-addition,
+.hljs-stream,
+.hljs-envvar,
+.apache .hljs-tag,
+.apache .hljs-cbracket,
+.tex .hljs-command,
+.hljs-prompt,
+.hljs-link_label,
+.hljs-link_url {
+  color: #e6db74;
+}
+
+.hljs-comment,
+.hljs-annotation,
+.hljs-decorator,
+.hljs-pi,
+.hljs-doctype,
+.hljs-deletion,
+.hljs-shebang,
+.apache .hljs-sqbracket,
+.tex .hljs-formula {
+  color: #75715e;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .hljs-cdata,
+.xml .php,
+.php .xml {
+  opacity: 0.5;
+}
