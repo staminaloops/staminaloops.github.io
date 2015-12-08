@@ -11,7 +11,7 @@ const reload = browserSync.reload;
 gulp.task('styles', () => {
   return gulp.src('app/styles/*.css')
     .pipe($.sourcemaps.init())
-    .pipe($.autoprefixer({browsers: ['last 1 version']}))
+    .pipe($.autoprefixer({browsers: ['last 2 version']}))
     .pipe($.sourcemaps.write())
     .pipe(gulp.dest('.tmp/styles'))
     .pipe(reload({stream: true}));

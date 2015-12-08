@@ -1,10 +1,10 @@
 body {
-  color: #FFF ;
-  font-family: 'Ubuntu', sans-serif;
+  color: #FFF;
+  font-family: "Ubuntu", sans-serif;
 }
 
 h1 {
-  font-family: 'Lobster', serif;
+  font-family: "Lobster", Helvetica, sans-serif;
   color: #D02C2C;
   font-size: 37px;
   text-shadow: 1px 1px 1px #300E0E;
@@ -133,7 +133,7 @@ pre {
 .d3 {
   box-sizing: content-box;
   border: none;
-  font: normal 72px / normal "Lobster", Helvetica, sans-serif;
+  font: normal 50px / normal "Lobster", Helvetica, sans-serif;
   color: rgba(255, 255, 255, 1);
   text-align: center;
   -o-text-overflow: clip;
@@ -219,7 +219,7 @@ form {
 }
 
 .other-icons :before, .other-icons :after, .other-icons {
-color: #D02C2C;
+    color: #D02C2C;
     font-size: 37px;
     text-shadow: 1px 1px 1px #300E0E;
 }
