@@ -1,5 +1,9 @@
-//highligth.js
+// Don't force https when serving the website locally
+if (!(window.location.host.startsWith("localhost")) && (window.location.protocol != "https:")) {
+  window.location.protocol = "https";
+}
 
+//highligth.js
 $(document).ready(function() {
     $('pre').each(function(i, block) {
         hljs.highlightBlock(block);
