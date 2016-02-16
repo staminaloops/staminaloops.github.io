@@ -48,19 +48,17 @@ color: white;
 	font-size: 30px;
 }
 
-.flaticon-social-network44::before, .flaticon-stack18::before, .flaticon-twitter44::before  {
+.flaticon-social-network44::before, .flaticon-stack18::before, .flaticon-twitter44::before, .flaticon-programming9:before  {
 	font-size: 35px;
 	color: #570011;
 	text-shadow: 0px 1px 1px #CC3535;
 	
 }
-.flaticon-social-network44:hover::before, .flaticon-stack18:hover::before, .flaticon-twitter44:hover::before {
+.flaticon-social-network44:hover::before, .flaticon-stack18:hover::before, .flaticon-twitter44:hover::before, .flaticon-programming9:hover:before {
   color: white;
   text-decoration: none;
 }
 
 .flaticon-programming9:before {
 	content: "\e001";
-	font-size:150px;
-
 }
