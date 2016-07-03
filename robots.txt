@@ -1,5 +1,0 @@
-# robotstxt.org/
-
-User-agent: * 
-Disallow: /undefinedisnotafunction/categories/
-Disallow: /undefinedisnotafunction/tags/
