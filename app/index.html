@@ -108,7 +108,7 @@
         <div class="col-md-6 ">
           <br />
           <pre>
-    //React &lt;3 
+    //React &lt;3
 
     const Sofia = React.createClass({
       getInitialState() {
@@ -138,8 +138,9 @@
 
       render() {
         return(
-          &lt;button 
-            onClick={this.addPassion(&quot;coding&quot;)} /&gt;
+          &lt;button
+            onClick={this.addPassion(&quot;coding&quot;)}
+          /&gt;
         );
       }
     });
@@ -180,7 +181,7 @@
       </div>
     </div>
   </section>
-  <!-- Portfolio Section 
+  <!-- Portfolio Section
     <section id="portfolio" class="portfolio-section">
         <div class="container">
             <div class="row">
@@ -211,40 +212,35 @@
       <div class="row">
         <div class="col-md-8">
           <h3>Send me a Message</h3>
-          <form name="form3" id="form3" enctype="multipart/form-data" method="post" action="https://staminaloops.wufoo.com/forms/q1exsyk412764dt/#public" target="iframe_a">
+          <form name="form3" id="form3" method="post" action="https://formspree.io/staminaloops@gmail.com">
             <div class="control-group form-group">
               <div class="controls">
                 <label>Name: *</label>
-                <input id="Field9 name" name="Field9" type="text" class="form-control" required>
+                <input id="Field9 name" name="Name" type="text" class="form-control" required>
                 <p class="help-block"></p>
               </div>
             </div>
             <div class="control-group form-group">
               <div class="controls">
                 <label>Phone Number:</label>
-                <input type="tel" class="form-control" name="Field10" id="Field10 phone">
+                <input type="tel" class="form-control" name="Phone" id="Field10 phone">
               </div>
             </div>
             <div class="control-group form-group">
               <div class="controls">
                 <label>Email Address: *</label>
-                <input type="email" class="form-control" name="Field11" id="Field11 email" required>
+                <input type="email" class="form-control" name="email" id="Field11 email" required>
               </div>
             </div>
             <div class="control-group form-group">
               <div class="controls">
                 <label>Message: *</label>
-                <textarea rows="10" cols="100" class="form-control" name="Field12" id="Field12 message" required maxlength="999" style="resize:none"></textarea>
+                <textarea rows="10" cols="100" class="form-control" name="Message" id="Field12 message" required maxlength="999" style="resize:none"></textarea>
               </div>
             </div>
             <div id="success"></div>
             <!-- For success/fail messages -->
-            <button type="submit" class="btn btn-primary">Send Message</button>
-            <li class="hide">
-              <label for="comment">Do Not Fill This Out</label>
-              <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-              <input type="hidden" id="idstamp" name="idstamp" value="VKEwMgJg+NP9sqU6YopHm7Wi62WDLxA0aFO5nvxWF+M=" />
-            </li>
+            <button type="submit" id="submitButton" class="btn btn-primary">Send Message</button>
           </form>
         </div>
         <div class="col-md-4">
